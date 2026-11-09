@@ -1,5 +1,5 @@
 p {
- font-family: arial;
+ font-family: DM Sans;
 }
 
 .heading {
@@ -9,7 +9,10 @@ p {
  font-style: italic;
  text-align: left;
  margin-top: 5px;
- margin-bottom: 5px;
+ margin-bottom: 8px;
+ display: inline-block;
+ margin-top: 0px;
+ vertical-align: top;
 }
 
 .spanapple {
@@ -19,25 +22,29 @@ p {
 .subhead {
  font-size: 15px;
  text-align: center;
- width: 200px;
+ width: 210px;
  line-height: 20px;
- color: #4a4a4a;
  margin-top: 0px;
- margin-bottom: 8px;
+ margin-bottom: 6px;
  margin-left: 0px;
+}
+
+.body {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 .banner {
  margin-top: 8px;
+ margin-bottom: 8px;
  font-size: 15px;
- background-color: red;
+ background-color: #cb3036;
  color: white;
  text-align: center;
- width: 150px;
  padding-top: 10px;
  padding-bottom: 10px;
- padding-left: 20px;
- padding-right: 20px;
 }
 
 .spanbanner:hover {

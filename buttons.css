@@ -1,5 +1,9 @@
+button {
+font-family: DM Sans;
+}
+
 .matchbutton {
- background-color: #c60000; 
+ background-color: #cb3036; 
  color: white; 
  border: none; 
  padding-top: 10px;
@@ -36,6 +40,7 @@
  cursor: pointer;
  transition: background-color 0.15s,
  color 0.15s;
+ vertical-align: top;
 }
 
 .pitbutton:hover {
@@ -48,7 +53,7 @@
 }
 
 .analytics {
- background-color: #299029;
+ background-color: #2a8e3d;
  color: white;
  border: none;
  padding-top: 10px;

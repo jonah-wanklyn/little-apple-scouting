@@ -1,0 +1,35 @@
+input {
+ font-family: DM Sans;
+}
+
+a {
+ font-family: DM Sans;
+}
+
+.logo {
+ width: 40px;
+ object-fit: cover;
+ object-position: left;
+ margin-left: 0px;
+}
+
+.searchbar {
+ font-size: 20px;
+ margin-left: 8px;
+ border-style: solid;
+ border-radius: 10px;
+ line-height: 1.6;
+ padding-left: 6px;
+}
+
+.whitepaper {
+ color: #206bdb;
+}
+
+.whitepaper:hover {
+  color: #004bbd;
+}
+
+.whitepaper:active {
+  color: #002f75;
+}
