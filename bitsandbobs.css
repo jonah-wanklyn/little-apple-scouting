@@ -15,7 +15,7 @@ a {
 
 .searchbar {
  font-size: 20px;
- margin-left: 8px;
+ margin-left: 0px;
  border-style: solid;
  border-radius: 10px;
  line-height: 1.6;
@@ -32,4 +32,21 @@ a {
 
 .whitepaper:active {
   color: #002f75;
+}
+
+.divexample {
+ display: inline-block;
+ font-family: DM Sans;
+}
+
+.homesidebar {
+  background-color: #cb3036;
+  width:500px;
+  height:950px;
+  display: inline-block;
+}
+
+.headerdiv {
+  display: inline-block;
+  vertical-align: top;
 }
