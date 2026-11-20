@@ -1,0 +1,25 @@
+input {
+ font-family: DM Sans;
+}
+
+a {
+ font-family: DM Sans;
+}
+
+.logo {
+ width: 70px;
+ height: 78px;
+ object-fit: contain;
+ object-position: left;
+ vertical-align: center;
+ margin-left: 0px;
+}
+
+.searchbar {
+ font-size: 20px;
+ margin-left: 0px;
+ border-style: solid;
+ border-radius: 10px;
+ line-height: 1.6;
+ padding-left: 6px;
+}

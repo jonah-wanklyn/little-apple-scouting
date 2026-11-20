@@ -1,0 +1,38 @@
+.homesidebar {
+  background-color: #cb3036;
+  width:40vw;
+  height:100vh;
+  display: inline-block;
+  vertical-align:top;
+  padding:0px;
+  border:0px;
+  margin:0px;
+}
+
+.headerdiv {
+  display: block;
+  text-align: center;
+  padding:0px;
+  border:0px;
+  margin:0px;
+}
+
+.login{
+  display:block;
+  padding:0px;
+  border:0px;
+  margin:0px;
+}
+
+.wrapper{
+  display:inline-block;
+  vertical-align:top;
+  width: 60vw;
+  padding:0px;
+  border:0px;
+  margin:0px;
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+}
