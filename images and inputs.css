@@ -19,7 +19,8 @@ a {
  font-size: 20px;
  margin-left: 0px;
  border-style: solid;
- border-radius: 10px;
+ border-radius: 6px;
  line-height: 1.6;
  padding-left: 6px;
+ display: block;
 }

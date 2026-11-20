@@ -2,15 +2,15 @@ button {
 font-family: DM Sans;
 }
 
-.matchbutton {
- background-color: #cb3036; 
+.signin {
+ background-color:  #2a8e3d; 
  color: white; 
  border: none; 
  padding-top: 10px;
  padding-bottom: 10px;
  padding-left: 16px;
  padding-right: 16px;
- border-radius: 2px; 
+ border-radius: 6px; 
  cursor: pointer;
  margin-right: 5px;
  margin-bottom: 0px;
