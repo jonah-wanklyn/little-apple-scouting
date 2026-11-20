@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #cb3036;
+  background: linear-gradient(#cb3036, #860f13);
   width:40vw;
   height:100vh;
   display: inline-block;
