@@ -38,5 +38,10 @@
   margin-left: 8px;
   width: 40vw;
   vertical-align: top;
+  width: 59vw;
 }
 
+.wrapper{
+  display:block;
+  width: 100%;
+}
