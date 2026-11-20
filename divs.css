@@ -1,16 +1,16 @@
-.homesidebar {
+.sidebar {
   background-color: #cb3036;
   width:40vw;
   height:100vh;
   display: inline-block;
-  vertical-align:top;
+  vertical-align:bottom;
   padding:0px;
   border:0px;
   margin:0px;
 }
 
-.headerdiv {
-  display: block;
+.header {
+  display:block;
   text-align: center;
   padding:0px;
   border:0px;
@@ -24,15 +24,19 @@
   margin:0px;
 }
 
-.wrapper{
-  display:inline-block;
-  vertical-align:top;
-  width: 60vw;
-  padding:0px;
-  border:0px;
-  margin:0px;
-  box-sizing: border-box;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 4px;
+.dualmodules{
+  display: inline-block;
 }
+
+.bannerdiv{
+  display:inline-block;
+  vertical-align: top;
+}
+
+.rightmodule{
+  display: inline-block;
+  margin-left: 8px;
+  width: 40vw;
+  vertical-align: top;
+}
+
