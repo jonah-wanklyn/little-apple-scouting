@@ -6,70 +6,22 @@ font-family: DM Sans;
  background-color:  #2a8e3d; 
  color: white; 
  border: none; 
- padding-top: 10px;
- padding-bottom: 10px;
- padding-left: 16px;
- padding-right: 16px;
+ width: 238px;
+ height:38px;
  border-radius: 6px; 
  cursor: pointer;
  margin-right: 5px;
+ margin-top: 8px;
  margin-bottom: 0px;
  transition: opacity 0.15s;
  vertical-align: top;
+ font-weight:bold;
 }
 
-.matchbutton:hover {
+.signin:hover {
  opacity: 0.8;
 }
 
-.matchbutton:active {
+.signin:active {
  opacity: 0.5;
-}
-
-.pitbutton {
- background-color: white; 
- color: #206bdb; 
- border-color: #206bdb; 
- border-style: solid; 
- border-width: 2px; 
- padding-left: 16px;
- padding-top: 8px;
- padding-bottom: 8px;
- padding-right: 16px;
- border-radius: 2px; 
- cursor: pointer;
- transition: background-color 0.15s,
- color 0.15s;
- vertical-align: top;
-}
-
-.pitbutton:hover {
- color: white;
- background-color: #206bdb;
-}
-
-.pitbutton:active {
- opacity: 0.7;
-}
-
-.analytics {
- background-color: #2a8e3d;
- color: white;
- border: none;
- padding-top: 10px;
- padding-bottom: 10px;
- padding-right: 16px;
- padding-left: 16px;
- border-radius: 17.5px;
- cursor: pointer;
- margin-left: 5px;
- margin-right: 5px;
- font-weight: bold;
- font-size: 14px;
- transition: box-shadow 0.15s;
- vertical-align: top;
-}
-
-.analytics:hover {
- box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }

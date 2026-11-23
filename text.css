@@ -19,27 +19,34 @@ p {
 }
 
 .subhead {
- font-size: 15px;
+ font-size: 20px;
  text-align: center;
- width: 220px;
+ display:block;
  line-height: 20px;
  margin-top: 0px;
  margin-bottom: 6px;
  margin-left: 0px;
- font-weight: 600;
+ font-weight: 800;
 }
 
 .body {
-  font-size: 15px;
+  font-size: 16px;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.or {
+  font-size: 16px;
+  margin-top: 8px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .banner {
  margin-top: 8px;
  margin-bottom: 0px;
- width: 59vw;
+ width: 58.6vw;
  vertical-align: bottom;
  font-size: 15px;
  background-color: #2a8e3d;
@@ -83,4 +90,18 @@ p {
   margin-bottom:8px;
 }
 
+.signspan{
+  text-decoration: underline;
+}
 
+.upspan:hover{
+  text-decoration:underline;
+}
+
+.upspan{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-weight:800;
+  margin-bottom:8px;
+}

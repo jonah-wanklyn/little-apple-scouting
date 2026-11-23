@@ -16,11 +16,31 @@ a {
 }
 
 .searchbar {
- font-size: 20px;
+ font-size: 16px;
  margin-left: 0px;
  border-style: solid;
  border-radius: 6px;
  line-height: 1.6;
  padding-left: 6px;
+ width: 226px;
+ height: 32px;
  display: block;
+ background-color: #ffffff;
+ border-color: #000000;
+ border-width: 2px;
+ transition: opacity 0.15s;
+}
+
+.searchbar:hover{
+  border-color: #cb3036;
+  opacity: 0.8;
+  outline:none;
+}
+
+.searchbar:focus{
+  border-width: 2px;
+  border-color:#cb3036;
+  opacity: 1;
+  box-shadow: 0px 0px 0px 1px #cb3036;
+  outline: none;
 }
