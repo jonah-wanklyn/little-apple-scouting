@@ -27,6 +27,7 @@ p {
  margin-bottom: 6px;
  margin-left: 0px;
  font-weight: 800;
+ text-decoration: underline;
 }
 
 .body {
@@ -46,7 +47,7 @@ p {
 .banner {
  margin-top: 8px;
  margin-bottom: 0px;
- width: 58.6vw;
+width: 59.4vw;
  vertical-align: bottom;
  font-size: 15px;
  background-color: #2a8e3d;
@@ -57,6 +58,7 @@ p {
  margin-left: 0px;
  margin-right:0px;
  border-radius: 6px;
+ height: 20px;
 }
 
 .socials{
@@ -90,18 +92,11 @@ p {
   margin-bottom:8px;
 }
 
-.signspan{
-  text-decoration: underline;
-}
-
-.upspan:hover{
-  text-decoration:underline;
-}
 
 .upspan{
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
-  color:#cb3036;
+  color:black;
   font-size: 20px;
   font-weight:800;
   margin-bottom:8px;
