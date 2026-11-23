@@ -100,8 +100,10 @@ p {
 
 .upspan{
   text-decoration: none;
-  color:black;
+  display: block;
+  color:#cb3036;
   font-size: 20px;
   font-weight:800;
   margin-bottom:8px;
+  text-align: center;
 }

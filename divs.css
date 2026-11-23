@@ -2,11 +2,13 @@
   background: linear-gradient(#cb3036, #860f13);
   width:40vw;
   height:100vh;
-  display: inline-block;
-  vertical-align:bottom;
-  padding:0px;
+  display:inline-flex;
+  flex-direction: column;
+  padding-left:10px;
   border:0px;
   margin:0px;
+  justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .header {
@@ -14,7 +16,7 @@
   text-align: center;
   padding:0px;
   border:0px;
-  margin:0px;
+  margin-top:5px;
 }
 
 .login{
@@ -23,23 +25,21 @@
   border:0px;
   margin:0px;
   width: 238px;
+  margin:auto;
 }
 
 .dualmodules{
   display: inline-block;
 }
 
-.bannerdiv{
-  display:inline-block;
-  vertical-align: top;
-}
-
 .rightmodule{
-  display: inline-block;
+  display: inline-flex;
+  flex-direction:column;
+  justify-content:space-between;
   margin-left: 8px;
-  width: 40vw;
   vertical-align: top;
   width: 58vw;
+  height:98.8vh
 }
 
 .wrapper{
