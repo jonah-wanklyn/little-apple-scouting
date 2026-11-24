@@ -1,9 +1,11 @@
 input {
- font-family: DM Sans;
+ font-family: IBM Plex Sans;
+ letter-spacing: 1px;
 }
 
 a {
- font-family: DM Sans;
+ font-family: IBM Plex Sans;
+ letter-spacing: 1px;
 }
 
 .logo {
