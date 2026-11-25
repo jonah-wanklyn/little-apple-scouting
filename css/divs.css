@@ -4,10 +4,13 @@
   height:100vh;
   display:inline-flex;
   flex-direction: column;
-  padding-left:10px;
+  padding-left:0px;
   padding-bottom: 38px;
   border:0px;
   margin:0px;
+  box-sizing: border-box;
+  overflow:hidden;
+  min-width:0;
   box-sizing: border-box;
 }
 
@@ -62,9 +65,22 @@
   overflow: hidden;
   display: flex;            
   align-items: center;
-  padding-left: 4px;
+  padding-left: 10px;
   padding-right:8px;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: lightblue;
+  box-sizing: border-box;
+}
+
+.twogrid {
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;            
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 10px;
+  padding-right:0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
