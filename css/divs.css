@@ -8,7 +8,6 @@
   padding-bottom: 38px;
   border:0px;
   margin:0px;
-  justify-content: flex-end;
   box-sizing: border-box;
 }
 
@@ -55,4 +54,17 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.topgrid {
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;            
+  align-items: center;
+  padding-left: 4px;
+  padding-right:8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightblue;
 }
