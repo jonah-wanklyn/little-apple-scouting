@@ -1,0 +1,25 @@
+@keyframes panleft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes panright {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.panright{
+  animation: panright 25s linear infinite;
+}
+
+.panleft{
+  animation: panleft 25s linear infinite;
+}

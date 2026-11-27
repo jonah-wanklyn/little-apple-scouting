@@ -72,23 +72,15 @@
   box-sizing: border-box;
 }
 
-.twogrid {
-  min-height: 0;
-  min-width: 0;
-  overflow: hidden;
-  display: flex;            
-  align-items: center;
-  justify-content: flex-end;
-  padding-left: 10px;
-  padding-right:0px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
 .mainsidebar{
   display:flex;
   flex-direction:column;
   height: 100vh;
   width: 100px;
   background: linear-gradient(#cb3036, #860f13);
+}
+
+.trackone{
+  display:flex;
+  height:100%;
 }
